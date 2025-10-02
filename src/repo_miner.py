@@ -14,7 +14,7 @@ Sub-commands:
 import os
 import argparse
 import pandas as pd
-from github import Github, Auth
+from github import Github
 from datetime import datetime
 
 # ------------------ FETCH COMMITS ------------------
@@ -23,16 +23,14 @@ def fetch_commits(repo_name: str, max_commits: int = None) -> pd.DataFrame:
     Fetch up to `max_commits` from the specified GitHub repository.
     Returns a DataFrame with columns: sha, author, email, date, message.
     """
-    # 1) Read GitHub token from environment
     token = os.getenv("GITHUB_TOKEN")
     if not token:
         raise EnvironmentError("GITHUB_TOKEN environment variable not set.")
 
-    # 2) Initialize GitHub client and get the repo
-    gh = Github(auth=Auth.Token(token))
+    # Initialize GitHub client
+    gh = Github(token)  # <-- simplified for environment variable usage
     repo = gh.get_repo(repo_name)
 
-    # 3) Fetch commit objects
     records = []
     for i, commit in enumerate(repo.get_commits()):
         if max_commits and i >= max_commits:
@@ -46,7 +44,6 @@ def fetch_commits(repo_name: str, max_commits: int = None) -> pd.DataFrame:
             "message": c.message.splitlines()[0] if c.message else None,
         })
 
-    # 4) Build DataFrame
     return pd.DataFrame(records)
 
 
@@ -61,13 +58,12 @@ def fetch_issues(repo_name: str, state: str = "all", max_issues: int = None) -> 
     if not token:
         raise EnvironmentError("GITHUB_TOKEN environment variable not set.")
 
-    gh = Github(auth=Auth.Token(token))
+    gh = Github(token)  # <-- simplified
     repo = gh.get_repo(repo_name)
 
     records = []
     count = 0
     for issue in repo.get_issues(state=state):
-        # Skip pull requests
         if hasattr(issue, "pull_request") and issue.pull_request is not None:
             continue
 
@@ -95,33 +91,27 @@ def fetch_issues(repo_name: str, state: str = "all", max_issues: int = None) -> 
 
 # ------------------ MAIN CLI ------------------
 def main():
-    """
-    Parse command-line arguments and dispatch to sub-commands.
-    """
     parser = argparse.ArgumentParser(
         prog="repo_miner",
         description="Fetch GitHub commits/issues and summarize them"
     )
     subparsers = parser.add_subparsers(dest="command", required=True)
 
-    # Sub-command: fetch-commits
+    # fetch-commits
     c1 = subparsers.add_parser("fetch-commits", help="Fetch commits and save to CSV")
     c1.add_argument("--repo", required=True, help="Repository in owner/repo format")
-    c1.add_argument("--max", type=int, dest="max_commits",
-                    help="Max number of commits to fetch")
+    c1.add_argument("--max", type=int, dest="max_commits", help="Max number of commits to fetch")
     c1.add_argument("--out", required=True, help="Path to output commits CSV")
 
-    # Sub-command: fetch-issues
+    # fetch-issues
     c2 = subparsers.add_parser("fetch-issues", help="Fetch issues and save to CSV")
     c2.add_argument("--repo", required=True, help="Repository in owner/repo format")
-    c2.add_argument("--state", choices=["all", "open", "closed"], default="all",
-                    help="Issue state filter")
+    c2.add_argument("--state", choices=["all", "open", "closed"], default="all", help="Issue state filter")
     c2.add_argument("--max", type=int, dest="max_issues", help="Max number of issues to fetch")
     c2.add_argument("--out", required=True, help="Path to output issues CSV")
 
     args = parser.parse_args()
 
-    # Dispatch commands
     if args.command == "fetch-commits":
         df = fetch_commits(args.repo, args.max_commits)
         df.to_csv(args.out, index=False)
