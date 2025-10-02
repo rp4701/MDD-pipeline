@@ -2,9 +2,9 @@ name: Python CI
 
 on:
   push:
-    branches: [ rm0-dev, master, main ]
+    branches: [ rm2-dev, rm1-dev,rm0-dev, master, main ]
   pull_request:
-    branches: [ rm0-dev, master, main ]
+    branches: [ rm2-dev, rm1-dev,rm0-dev, master, main ]
 
 jobs:
   test:
