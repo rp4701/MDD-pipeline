@@ -1,0 +1,51 @@
+sha,author,email,date,message
+691bcc63e64898057b6947be840b9f1eaa8d4690,dileepyavan,52841896+dileepyavan@users.noreply.github.com,2025-10-09T23:34:40+00:00,Refreshing cached MCP servers when the extension MCP's are disabled.  (#270476)
+576c69b64cf6cab30c1d1d3ec644b7786f7793d9,Bryan Chen,41454397+bryanchen-d@users.noreply.github.com,2025-10-09T23:25:53+00:00,Merge pull request #270615 from microsoft/brchen/debug-focus-on-exception
+a3619258ff0624148e271d50b7e54fd2baadb0a2,Dmitriy Vasyura,dmitriv@microsoft.com,2025-10-09T23:03:19+00:00,Add prompt support to QuickPick (#270497)
+683d1e36fb9dd2aaaf989306cebb407af68af8b5,Ben Villalobos,bevillal@microsoft.com,2025-10-09T22:32:16+00:00,"Prompt Updates: Remove think, fully qualify github mcp (#270656)"
+9553c0719cb72f4cd86e02039c3dfaed8d558122,Matt Bierner,12821956+mjbvz@users.noreply.github.com,2025-10-09T21:36:20+00:00,Merge pull request #270651 from mjbvz/dev/mjbvz/semantic-swan
+c611432c5f3d1b945f1e5bddf711990cf7cf5d03,Sergei Druzhkov,serzhdruzhok@gmail.com,2025-10-09T21:04:54+00:00,Fix disassembly view (#270361)
+245265d15e6ac69a5750576820259ea41f8789d9,Matt Bierner,12821956+mjbvz@users.noreply.github.com,2025-10-09T20:59:00+00:00,Mark most `Event` properties as `readonly`
+efdc6b10425846db33dddcc0a4a70d583127a9ac,Copilot,198982749+Copilot@users.noreply.github.com,2025-10-09T20:02:28+00:00,Add package.json contribution for terminal completion provider descriptions (#270597)
+e0b35bf4fcfc7b8a650b7a1b1509dcb8b2116058,Benjamin Pasero,benjamin.pasero@gmail.com,2025-10-09T19:26:53+00:00,chat - make the plus icon a dropdown for more options in the view (#270621)
+d118d57ec0c40762fbe834de1948a1f47ad5ebd5,Benjamin Pasero,benjamin.pasero@gmail.com,2025-10-09T19:25:26+00:00,prompts - cleanup (#270622)
+1042375c6cdef8ea00ab220de5ed0e7a4fc8bc76,Dmitriy Vasyura,dmitriv@microsoft.com,2025-10-09T19:12:58+00:00,Add a button to view extension details from Managed Trusted Extensions picker (#270450)
+7ab28d031ab12742271edacb0dd13cceacbe5784,Rob Lourens,roblourens@gmail.com,2025-10-09T18:57:52+00:00,Don't require agent mode to set default model experiment (#270620)
+46b60ac2ce4fce4eab4f45d488b1b0942d5a0427,Connor Peet,copeet@microsoft.com,2025-10-09T18:22:49+00:00,"chore: remove any casts in testing, mcp, debug (#270616)"
+d39085dbffddb7488cb50bf78f541781e158efe6,Bryan Chen,41454397+bryanchen-d@users.noreply.github.com,2025-10-09T18:11:46+00:00,Tweak the comment
+320f804fef45567fd9a4d4ff39853c177bbf7d71,Bryan Chen,bryan.chen@microsoft.com,2025-10-09T17:57:36+00:00,debug: only show exception widget in active editor group
+32d307723257d10887185352ec6c0c6882690481,Tyler James Leonhardt,2644648+TylerLeonhardt@users.noreply.github.com,2025-10-09T17:25:24+00:00,Run `npm ci` & point to README in vscode-playwright-mcp (#270603)
+d82887c57b6f147c2e11e7ee532bd022cdcfe919,Matt Bierner,12821956+mjbvz@users.noreply.github.com,2025-10-09T17:06:16+00:00,Merge pull request #270594 from mjbvz/dev/mjbvz/inner-xerinae
+db4938fa5099ed24e8e88935c7a3609952ece61f,Matt Bierner,12821956+mjbvz@users.noreply.github.com,2025-10-09T16:45:04+00:00,Avoid using custom markdown actionHandlers in a few cases
+d1d246d793090b0e722632d2284d0f6a52707033,Lee Murray,mrleemurray@gmail.com,2025-10-09T15:58:21+00:00,Merge pull request #270540 from microsoft/mrleemurray/severe-albatross-harlequin
+33b1d77b034ea548b2b43101c3b81782fecfab3e,Sandeep Somavarapu,sasomava@microsoft.com,2025-10-09T15:26:30+00:00,remove any type (#270549)
+e656b3edce66d56afd052db1c12296ecaab8613b,Matt Bierner,12821956+mjbvz@users.noreply.github.com,2025-10-09T15:24:13+00:00,Merge pull request #270412 from mjbvz/dev/mjbvz/pregnant-gibbon
+2a47b7b0e499b4b4e541415c212986a86af8178d,Matt Bierner,12821956+mjbvz@users.noreply.github.com,2025-10-09T14:59:07+00:00,Merge pull request #270488 from mjbvz/dev/mjbvz/fixed-ermine
+5859cf7661ea1265eeebaf75addd7e6da6e560d8,mrleemurray,lee.murray@microsoft.com,2025-10-09T12:06:50+00:00,Isolate high contrast theme styles for only settings editor links
+f8ad8ecb29a024a82a4a9163e8a6b83ab325ae65,mrleemurray,lee.murray@microsoft.com,2025-10-09T12:01:23+00:00,Add high contrast theme support for settings editor links and buttons
+6115140fb0657d86350c2de8bcf53e61c731d8cd,Lee Murray,mrleemurray@gmail.com,2025-10-09T10:22:34+00:00,Merge pull request #270406 from microsoft:mrleemurray/grand-angelfish-harlequin
+9cf4f6eb6ef0eaa887ec2aae35dda7dea521ae0c,mrleemurray,lee.murray@microsoft.com,2025-10-09T10:06:22+00:00,Update color definitions for keyword control in YAML and TypeScript test files
+fdd8dc7864badd0f4171bd5cfd0c53c940c31aa8,Lee Murray,mrleemurray@gmail.com,2025-10-09T09:18:34+00:00,Merge branch 'main' into mrleemurray/grand-angelfish-harlequin
+24ed19d589c7aba9ea61f5c474f6dbd89948c61d,Martin Aeschlimann,martinae@microsoft.com,2025-10-09T09:02:41+00:00,Merge pull request #268148 from microsoft/copilot/fix-c345ee31-b032-4b6a-97fe-2e8116c704ee
+455b8a5925be303d9b95408dec42c8fc9717177b,Benjamin Pasero,benjamin.pasero@gmail.com,2025-10-09T08:13:28+00:00,Inline edit toolbar is tiny (fix microsoft/vscode-copilot#17191) (#270423)
+6e16d95fd4ebb65da2a03e133da073059c58deee,Robo,hop2deep@gmail.com,2025-10-09T08:06:47+00:00,chore: retry entitlement signing failure (#270324)
+951289f9411e73b7feefbb8aeb874b5c6b3f97ea,Benjamin Pasero,benjamin.pasero@gmail.com,2025-10-09T06:57:22+00:00,Show ✨ for rename suggestions OOTB (fix #270489) (#270490)
+a396c670674a63dffad495d85c47b60651bfaff5,Matt Bierner,12821956+mjbvz@users.noreply.github.com,2025-10-09T05:23:51+00:00,Move MarkdownRenderer into `platform` layer
+bcbd0b4a9877c49ece744f86f4dc1e2b73477e98,Tyler James Leonhardt,2644648+TylerLeonhardt@users.noreply.github.com,2025-10-09T01:20:16+00:00,Remove quick pick flow for protocol handler (#270455)
+b676e122777f9ac91c27c2fd01f9a0458a13b858,Matt Bierner,12821956+mjbvz@users.noreply.github.com,2025-10-09T01:04:34+00:00,Merge pull request #270456 from mjbvz/dev/mjbvz/flying-stoat
+8ecbeecef6e7c9576b049683cc8eb52f35b07696,Matt Bierner,12821956+mjbvz@users.noreply.github.com,2025-10-09T00:12:22+00:00,Back to using innerHTML
+82a29a2b2596b17c3be03b0e0229cf94eb9bd6ea,Matt Bierner,12821956+mjbvz@users.noreply.github.com,2025-10-09T00:01:24+00:00,Use css to override font-size in rendered markdown
+0eef227aaf5e31e2f66d70b08b2db5ca3fc1132b,Peng Lyu,penn.lv@gmail.com,2025-10-08T23:52:40+00:00,Merge pull request #270303 from microsoft/dineshc/notebook-f3
+d751a3d55f8809e4f891f1bb7172e18867d6926f,Tyler James Leonhardt,2644648+TylerLeonhardt@users.noreply.github.com,2025-10-08T23:49:23+00:00,Add device code flow when not brokered (#270453)
+f0e1593e4f43d87bfbf83f6a5ce17dfed1ab20b6,Matt Bierner,12821956+mjbvz@users.noreply.github.com,2025-10-08T23:22:57+00:00,Merge pull request #270449 from mjbvz/dev/mjbvz/superb-dinosaur
+22bc3379569cbd19bc2b357e7d92b796e05dcfde,Matt Bierner,12821956+mjbvz@users.noreply.github.com,2025-10-08T23:10:55+00:00,Also make sure MarkdownRendererService exists for tests
+0f762fd42ee9c19691bf308395c286b595522b6f,Don Jayamanne,don.jayamanne@outlook.com,2025-10-08T23:10:25+00:00,"Removed `(from Find Widget)` and `(Enter)` from the key binding titles, as the context isn't useful in the titles"
+0bece4825b6c227bba810fbe8b2089e34b39a512,Matt Bierner,12821956+mjbvz@users.noreply.github.com,2025-10-08T23:03:42+00:00,Replace `MarkdownRenderer`
+e6d796af907d1c37d2ca518658b7a43074065e27,Dinesh Chandnani,dineshc@microsoft.com,2025-10-08T22:42:16+00:00,Updated name of helper function
+5c00a3b6c7da313793feb3866c4b8899635a0254,Rob Lourens,roblourens@gmail.com,2025-10-08T22:41:05+00:00,Disable hiding toolbar items in chat (#270443)
+bdddfeb01e4539d2737303f7b8497b42b183c8c5,Matt Bierner,12821956+mjbvz@users.noreply.github.com,2025-10-08T22:33:47+00:00,Merge pull request #270441 from mjbvz/dev/mjbvz/bottom-aardwolf
+b2de925bcdb58c424f356256c01b8f580437fea2,Copilot,198982749+Copilot@users.noreply.github.com,2025-10-08T22:31:46+00:00,Fix MCP Prompt Input - Prevent empty optional fields from using previous suggestions (#270229)
+dd78f286b9ad107e9c7bfd9a1fb443673289cf1b,Dinesh Chandnani,dineshc@microsoft.com,2025-10-08T22:28:05+00:00,Added helper function for match next action.
+b0091129f40fcb0a39722edd48244b8c484c7020,Matt Bierner,12821956+mjbvz@users.noreply.github.com,2025-10-08T22:18:41+00:00,Move folder reveal logic into general workbench behavior
+853c0dd13a141d7c1c5167a8ad6dab3771edbcc1,Dinesh Chandnani,dineshc@microsoft.com,2025-10-08T22:12:33+00:00,Created helper functions for find widget actions.
+daf708a1baac2d0e0a436771ddb177ce4be5d3b9,Matt Bierner,12821956+mjbvz@users.noreply.github.com,2025-10-08T22:07:09+00:00,Merge pull request #270413 from mjbvz/dev/mjbvz/effective-aardvark

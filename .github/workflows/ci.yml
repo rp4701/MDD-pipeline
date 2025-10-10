@@ -2,9 +2,9 @@ name: Python CI
 
 on:
   push:
-    branches: [ rm0-dev, master, main ]
+    branches: [ rm2-dev, rm1-dev,rm0-dev, master, main ]
   pull_request:
-    branches: [ rm0-dev, master, main ]
+    branches: [ rm2-dev, rm1-dev,rm0-dev, master, main ]
 
 jobs:
   test:
@@ -16,14 +16,19 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v4
       with:
         python-version: ${{ matrix.python-version }}
+
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
+
     - name: Run tests
       run: |
-        pytest || echo "⚠️ No tests found, skipping..."
+        # Ensure src folder is in PYTHONPATH so imports work
+        export PYTHONPATH=$PYTHONPATH:./src
+        pytest tests -v

@@ -1,4 +1,11 @@
 sha,author,email,date,message
-7fd1a60b01f91b314f59955a4e4d4e80d8edf11d,The Octocat,octocat@nowhere.com,2012-03-06T23:06:50+00:00,Merge pull request #6 from Spaceghost/patch-1
-762941318ee16e59dabbacb1b4049eec22f0d303,Johnneylee Jack Rollins,Johnneylee.rollins@gmail.com,2011-09-14T04:42:41+00:00,New line at end of file. --Signed off by Spaceghost
-553c2077f0edc3d5dc5d17262f6aa498e69d6f8e,cameronmcefee,cameron@github.com,2011-01-26T19:06:08+00:00,first commit
+6115140fb0657d86350c2de8bcf53e61c731d8cd,Lee Murray,mrleemurray@gmail.com,2025-10-09T10:22:34+00:00,Merge pull request #270406 from microsoft:mrleemurray/grand-angelfish-harlequin
+9cf4f6eb6ef0eaa887ec2aae35dda7dea521ae0c,mrleemurray,lee.murray@microsoft.com,2025-10-09T10:06:22+00:00,Update color definitions for keyword control in YAML and TypeScript test files
+fdd8dc7864badd0f4171bd5cfd0c53c940c31aa8,Lee Murray,mrleemurray@gmail.com,2025-10-09T09:18:34+00:00,Merge branch 'main' into mrleemurray/grand-angelfish-harlequin
+24ed19d589c7aba9ea61f5c474f6dbd89948c61d,Martin Aeschlimann,martinae@microsoft.com,2025-10-09T09:02:41+00:00,Merge pull request #268148 from microsoft/copilot/fix-c345ee31-b032-4b6a-97fe-2e8116c704ee
+455b8a5925be303d9b95408dec42c8fc9717177b,Benjamin Pasero,benjamin.pasero@gmail.com,2025-10-09T08:13:28+00:00,Inline edit toolbar is tiny (fix microsoft/vscode-copilot#17191) (#270423)
+6e16d95fd4ebb65da2a03e133da073059c58deee,Robo,hop2deep@gmail.com,2025-10-09T08:06:47+00:00,chore: retry entitlement signing failure (#270324)
+951289f9411e73b7feefbb8aeb874b5c6b3f97ea,Benjamin Pasero,benjamin.pasero@gmail.com,2025-10-09T06:57:22+00:00,Show ✨ for rename suggestions OOTB (fix #270489) (#270490)
+bcbd0b4a9877c49ece744f86f4dc1e2b73477e98,Tyler James Leonhardt,2644648+TylerLeonhardt@users.noreply.github.com,2025-10-09T01:20:16+00:00,Remove quick pick flow for protocol handler (#270455)
+b676e122777f9ac91c27c2fd01f9a0458a13b858,Matt Bierner,12821956+mjbvz@users.noreply.github.com,2025-10-09T01:04:34+00:00,Merge pull request #270456 from mjbvz/dev/mjbvz/flying-stoat
+8ecbeecef6e7c9576b049683cc8eb52f35b07696,Matt Bierner,12821956+mjbvz@users.noreply.github.com,2025-10-09T00:12:22+00:00,Back to using innerHTML

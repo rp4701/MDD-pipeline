@@ -1,0 +1,51 @@
+id,number,title,user,state,created_at,closed_at,comments,open_duration_days
+3500968913,270674,GitHub Copilot Race Condition: Initial response ignores copilot.prompt context,jonask-028,open,2025-10-10T00:22:11+00:00,,0,
+3500958000,270673,fix this code,zazaazza99099zaaz-eng,open,2025-10-10T00:14:43+00:00,,1,
+3500956058,270672,Remote agent picks incorrect repo from workspace with multiple repos,dineshc-msft,open,2025-10-10T00:13:20+00:00,,1,
+3500953460,270671,Infinite spinner when fetching issues in GHPR,pierceboggan,open,2025-10-10T00:11:43+00:00,,0,
+3500947637,270670,No ability to clear all chat history from Sessions,pierceboggan,open,2025-10-10T00:08:08+00:00,,0,
+3500946460,270669,No ability to clear local chat when started from secondary side bar in Sessions,pierceboggan,open,2025-10-10T00:07:16+00:00,,0,
+3500928900,270668,Insert in Terminal fails if the terminal command contains a comment,pierceboggan,open,2025-10-09T23:54:36+00:00,,0,
+3500923281,270667,No way in the UI to delete a Git worktree,pierceboggan,open,2025-10-09T23:49:53+00:00,,1,
+3500892506,270666,Focus keeps moving to chat any time the output is updated,connor4312,open,2025-10-09T23:26:47+00:00,,0,
+3500886807,270665,Refactor noValidationMessage to be prompt,TylerLeonhardt,open,2025-10-09T23:23:55+00:00,,0,
+3500847389,270664,Don't require agent mode to set default model experiment,roblourens,open,2025-10-09T22:57:13+00:00,,0,
+3500836578,270663,Enable model-specific tool descriptions,roblourens,open,2025-10-09T22:50:21+00:00,,0,
+3500830190,270662,Enable keyboard shortcuts for custom chat modes,roblourens,open,2025-10-09T22:46:42+00:00,,0,
+3500829318,270661,Github copilot chat,fbrevy2266,open,2025-10-09T22:46:05+00:00,,0,
+3500795854,270659,testing path,NoTolerated,open,2025-10-09T22:27:38+00:00,,1,
+3500752725,270655,Remote MCP server hosted on an internally with a Self-sign certificate no can be started in 105,carchi8py,open,2025-10-09T22:05:34+00:00,,1,
+3500734478,270654,Keyboard shortcut strings are sometimes formatted strangely in Copilot responses,jruales,open,2025-10-09T21:56:35+00:00,,1,
+3500733698,270653,Explore settings UI for terminal auto approve,Tyriar,open,2025-10-09T21:56:08+00:00,,0,
+3500647040,270652,Charged on fail request,akhil41,closed,2025-10-09T21:14:27+00:00,2025-10-09T21:16:05+00:00,2,0.0
+3500609354,270650,Copilot Agent prompts fail when chat.useNestedAgentsMdFiles is enabled with SSH FS folders,Fail-Safe,open,2025-10-09T20:59:12+00:00,,0,
+3500573332,270649,De nuevo,davidmorocrespo,open,2025-10-09T20:42:34+00:00,,3,
+3500562284,270648,Terminal tool does not wait for command output,joshspicer,open,2025-10-09T20:37:26+00:00,,2,
+3500550924,270647,Documentation/settings: Differentiation between next edit suggestion & inline completion is indistinct,jbell-sr,open,2025-10-09T20:33:24+00:00,,1,
+3500509861,270646,No response,Harshavardhanmurugan,open,2025-10-09T20:17:21+00:00,,1,
+3500495273,270645,port ,Paulpatel11,closed,2025-10-09T20:11:56+00:00,2025-10-09T20:32:37+00:00,2,0.0
+3500493780,270644,tikTokenizerworker module fails,nathanwelsh8,open,2025-10-09T20:11:19+00:00,,1,
+3500453361,270641,"chat.tools.terminal.autoApprove object format with ""approve"": true doesn't work",ethompsonmail-svg,open,2025-10-09T19:57:34+00:00,,1,
+3500445995,270640,Why is this trial so short?,boltVRwastaken,closed,2025-10-09T19:55:03+00:00,2025-10-09T19:56:45+00:00,2,0.0
+3500396295,270639,issues during help,apenasojunior,closed,2025-10-09T19:35:52+00:00,2025-10-09T19:37:20+00:00,2,0.0
+3500388098,270638,AI还能私自改代码,liufang0,open,2025-10-09T19:32:25+00:00,,1,
+3500387606,270637,AI还能私自改代码,laogui008851,open,2025-10-09T19:32:11+00:00,,1,
+3500387603,270636,AI还能私自改代码,laogui008851,closed,2025-10-09T19:32:11+00:00,2025-10-09T20:32:23+00:00,2,0.0
+3500376979,270635,Ghhjj>,khanimehdi117-rgb,closed,2025-10-09T19:28:06+00:00,2025-10-09T19:29:52+00:00,1,0.0
+3500357288,270634,пидорас,gelb1245,closed,2025-10-09T19:20:09+00:00,2025-10-09T19:21:22+00:00,2,0.0
+3500355291,270633,GA 3,Mohammed-Osman-Sirajuddin884,closed,2025-10-09T19:19:16+00:00,2025-10-09T19:19:30+00:00,1,0.0
+3500349201,270632,keeps freezing,randers05,open,2025-10-09T19:17:02+00:00,,2,
+3500339763,270631,Nothing works,JGBotts,closed,2025-10-09T19:13:59+00:00,2025-10-09T19:58:05+00:00,3,0.0
+3500331984,270630,Instabilidade,victorbht,open,2025-10-09T19:11:24+00:00,,1,
+3500328081,270629,My request failed with a 400 status code,TheNatas,closed,2025-10-09T19:10:11+00:00,2025-10-09T19:11:55+00:00,2,0.0
+3500323477,270628,"Add ""apply changes"" button to Chats when worktree is used",pierceboggan,open,2025-10-09T19:08:37+00:00,,0,
+3500316710,270627,Git worktrees integration in Chat,pierceboggan,open,2025-10-09T19:05:59+00:00,,1,
+3500311332,270626,Errores continuos,davidmorocrespo,open,2025-10-09T19:03:50+00:00,,3,
+3500287035,270624,Nested AGENTS.md,douglasataya,open,2025-10-09T18:54:12+00:00,,0,
+3500279181,270623,Use embeddings to improve virtual tool grouping,connor4312,open,2025-10-09T18:50:56+00:00,,0,
+3500245908,270619,"Clicking OS notification always opens secondary side bar, even if I'm working with Chat in editor",pierceboggan,open,2025-10-09T18:37:11+00:00,,6,
+3500232561,270618,Make approval for read tools happen after rather than before the tool call,connor4312,open,2025-10-09T18:32:55+00:00,,1,
+3500215693,270617,VS Code looks for local paths during remote sessions,fonnesbeck,open,2025-10-09T18:28:17+00:00,,0,
+3500111954,270614,What the heck was that?,johnmccrae,open,2025-10-09T17:54:49+00:00,,2,
+3500093047,270613,repeatedly rate limited,cyndiebubis-dell,closed,2025-10-09T17:49:08+00:00,2025-10-09T17:51:01+00:00,1,0.0
+3500083171,270612,VS Code Bug Report: chat.tools.terminal.autoApprove Semicolon Parsing Issue,davidnmbond,open,2025-10-09T17:45:03+00:00,,0,
